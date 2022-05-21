@@ -16,18 +16,19 @@ y is value and x is location, where value is stored in.
 
 > note: x comes from the array index of where to start writing/reading the data. 
 
-what happens when your contract is written in memory 
+# what happens when your contract is written in memory 
 
- your should pay for the number of bytes written! 
+ you should pay for the number of bytes written! 
 
 > note: if you are writing to a new part of memory that hasn't been written before it takes more cost, for using the first time of this area of memory.
 
-Free Memory Pointer
+# Free Memory Pointer
 
 free memory pinter shows us where the area of memory is free. (where free memory starts)
 
 > note: free memory pointer protects contract to not overwriting on the area that is held by another variable.
 
-what happens when the variable is written 
+# what happens when the variable is written 
 
 in the first step variable reference, the free memory pointer Select the where data should be stored.
+
