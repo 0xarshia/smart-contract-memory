@@ -30,5 +30,7 @@ free memory pinter shows us where the area of memory is free. (where free memory
 
 # what happens when the variable is written 
 
-in the first step variable reference, the free memory pointer Select the where data should be stored.
+in the first step variable reference to the free memory pointer to Select the where data should be stored.
+
+
 
