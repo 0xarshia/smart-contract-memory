@@ -6,11 +6,11 @@ contract **memory** is a place to store the **bytes**, its simple byte array, wh
 
 this operation is determined by **3 opcodes** that process on memory.
 
-MSTORE (x, y) - Store a 32 byte (256-bit) value “y” starting at memory location “x”
+- MSTORE (x, y) - Store a 32 byte (256-bit) value “y” starting at memory location “x”
 
-MLOAD (x) - Load 32 bytes (256-bit) starting at memory location “x” onto the call stack
+- MLOAD (x) - Load 32 bytes (256-bit) starting at memory location “x” onto the call stack
 
-MSTORE8 (x, y) - Store a 1 byte (8-bit) value “y” at memory location “x” (the least significant byte of the 32-byte stack value).
+- MSTORE8 (x, y) - Store a 1 byte (8-bit) value “y” at memory location “x” (the least significant byte of the 32-byte stack value).
 
 y is value and x is location, where value is stored in.
 
